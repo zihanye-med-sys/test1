@@ -26,13 +26,7 @@ python -m pip install -e .
 snake-game
 ```
 
-## 测试
 
-测试只依赖 Python 标准库：
-
-```powershell
-python -m unittest discover -s tests -v
-```
 
 ## 操作
 
