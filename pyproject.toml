@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snake-game"
+version = "1.0.0"
+description = "A dependency-free Snake game with a testable Python core"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+snake-game = "snake_game.ui:main"
+
+[tool.setuptools.packages.find]
+include = ["snake_game*"]
+
